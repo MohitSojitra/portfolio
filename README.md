@@ -21,7 +21,7 @@ This project was built using these technologies.
 - Vercel
 
 ## Features
-**� Fully Responsive**
+** Fully Responsive**
 
 ## Getting Started
 
