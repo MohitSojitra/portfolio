@@ -8,6 +8,7 @@ import jsomBlog from '../../Assets/Projects/jsomBlog.png'
 import taskify from '../../Assets/Projects/Taskify.png'
 import aF from '../../Assets/Projects/artisteeF.png'
 import aA from '../../Assets/Projects/artisteeA.png'
+import easyCode from '../../Assets/Projects/easy-code.png'
 
 function Projects() {
   return (
@@ -29,6 +30,17 @@ function Projects() {
               description="Used for increase the productivity and tracks your progress towards the your project or goal. It has a workspace features that means multiple people collobrate in one project. It has a features like create boards , add container in board and add task in container. Board member also add comment in perticular task and assign flag over that. "
               link="https://github.com/MohitSojitra/taskify"
               liveLink="https://trallo-clone-mocha.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={easyCode}
+              isBlog={false}
+              title="easy-code"
+              description="Easy code is my personal blog website which is build with nextjs. It has great support of the Markdown content. Easy-code is fully responsive blog website which has light and dark mode support."
+              link="https://github.com/MohitSojitra/easy-code"
+              liveLink="https://blog.mohitsojitra.tech/"
             />
           </Col>
 
