@@ -21,8 +21,8 @@ This project was built using these technologies.
 - Vercel
 
 ## Features
-** Fully Responsive**
-** PWA portfolio (you can install in mobile and desktop)**
+**Fully Responsive**
+**PWA portfolio (you can install in mobile and desktop)**
 
 ## Getting Started
 
