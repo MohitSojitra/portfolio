@@ -22,6 +22,7 @@ This project was built using these technologies.
 
 ## Features
 ** Fully Responsive**
+** PWA portfolio (you can install in mobile and desktop)**
 
 ## Getting Started
 
