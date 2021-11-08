@@ -21,7 +21,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Full Stack developer [That People's]"
+              title="Full Stack developer [Shree Themes]"
               date="April 2021 - present"
               content={[
                 'Learned and experiment with React Native, Aws cloud services like S3, Amplify, App Sync, RDS, GraphQl and DynamoDb.',
