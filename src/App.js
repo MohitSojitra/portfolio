@@ -10,17 +10,20 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from "react-ga";
 
 import ScrollToTop from "./components/ScrollToTop";
 
+ReactGA.initialize("G-KN1E14N8YK");
+
 function App() {
   const [load, upadateLoad] = useState(true);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
 

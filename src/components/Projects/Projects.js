@@ -1,16 +1,20 @@
-import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
-import ProjectCard from './ProjectCards'
-import Particle from '../Particle'
+import React, { useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ProjectCard from "./ProjectCards";
+import Particle from "../Particle";
 
-import eCom from '../../Assets/Projects/E-com.png'
-import jsomBlog from '../../Assets/Projects/jsomBlog.png'
-import taskify from '../../Assets/Projects/Taskify.png'
-import aF from '../../Assets/Projects/artisteeF.png'
-import aA from '../../Assets/Projects/artisteeA.png'
-import easyCode from '../../Assets/Projects/easy-code.png'
+import eCom from "../../Assets/Projects/E-com.png";
+import jsomBlog from "../../Assets/Projects/jsomBlog.png";
+import taskify from "../../Assets/Projects/Taskify.png";
+import aF from "../../Assets/Projects/artisteeF.png";
+import aA from "../../Assets/Projects/artisteeA.png";
+import easyCode from "../../Assets/Projects/easy-code.png";
+import ReactGA from "react-ga";
 
 function Projects() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -18,10 +22,10 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{color: 'white'}}>
+        <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{justifyContent: 'center', paddingBottom: '10px'}}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={taskify}
@@ -92,7 +96,7 @@ function Projects() {
         </Row>
       </Container>
     </Container>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
