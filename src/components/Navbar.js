@@ -46,7 +46,7 @@ function NavBar() {
               fontSize: '28px',
             }}
           >
-            Mohit Sojitra
+            My Portfolio
           </p>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -125,4 +125,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default NavBar;

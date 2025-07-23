@@ -6,17 +6,17 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
-    "axios": "^0.21.1",
-    "bootstrap": "^4.5.3",
+    "ajv-keywords": "3.5.2",
+    "axios": "^1.11.0",
+    "bootstrap": "^5.3.7",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.1",
-    "react-github-calendar": "^2.0.2",
+    "react-github-calendar": "^1.0.0",
     "react-icons": "^4.3.1",
     "react-parallax-tilt": "^1.4.68",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
     "typewriter-effect": "^2.17.0",
     "web-vitals": "^0.2.4"
   },
@@ -45,6 +45,9 @@
     ]
   },
   "engines": {
-    "node": "16.x"
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "react-scripts": "^4.0.1"
   }
 }
