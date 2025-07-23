@@ -10,8 +10,6 @@ import {
   DiGit,
 } from 'react-icons/di'
 import {
-  SiPytorch,
-  SiTensorflow,
   SiFirebase,
   SiTypescript,
   SiAmazonaws,

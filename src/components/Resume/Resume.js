@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Mohit_SDE_Resume.pdf";
+import pdf from "../../Assets/Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import ReactGA from "react-ga";
 
@@ -59,11 +59,10 @@ function Resume() {
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Computer Science and Engineering [R.N.G.P.I.T] "
-              date="2017 - 2021"
+              title="Metallurgical and Materials Engineering [ IIT Roorkee ] "
+              date="2023 - 2027"
               content={[
-                `CGPA: 9.00/10 `,
-                "I was complete my bachelor degree fron R.N.G Patel Institute of Technology.",
+                "I am in 3rd year rightnow, currently pursuing B.Tech fron Indian Institute Of Technology(IIT) Roorkee .",
               ]}
             />
 

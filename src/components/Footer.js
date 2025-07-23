@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import {AiFillGithub, AiOutlineTwitter, AiFillInstagram} from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
 
 function Footer() {
@@ -10,10 +10,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mohit Sojitra</h3>
+          <h3>Designed and Developed by Diptesh Kumar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} MS</h3>
+          <h3>Copyright © {year} DK</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
